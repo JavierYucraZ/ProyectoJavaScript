@@ -81,3 +81,15 @@ body{
 .derecha{
 	right: 10px;
 }
+
+.texto{
+	margin: 50px 100px ;
+	text-align: center;
+}
+
+.irTop{
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	cursor: pointer;
+}
