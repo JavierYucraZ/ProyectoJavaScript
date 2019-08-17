@@ -28,7 +28,7 @@ $(document).ready(function(){
 		$(".paginacion li").css({"color":"#858585"});
 		$(this).css({"color":"#cd6efe"});
 
-		
+		imgPos = paginacionPos;
 	}
 
 	function siguiente(){

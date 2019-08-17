@@ -1,0 +1,44 @@
+.contenedor{
+	width: 1000px;
+	max-width: 90%;
+	margin: 30px auto;
+}
+
+.tabs{
+	width: 100%;
+	background: #363636;
+	display: flex;
+}
+
+.tabs li{
+	flex-grow: 1;
+}
+
+.tabs li a{
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.tabs li a .tab-texto{
+	margin-left: 18px;
+}
+
+.activo{
+	background: #0984cc;
+}
+
+.secciones{
+	width: 100%;
+}
+
+.secciones article{
+	padding: 30px;
+}
+
+.secciones article p{
+	text-align: justify;
+}

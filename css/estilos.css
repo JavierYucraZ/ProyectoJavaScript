@@ -24,6 +24,7 @@ body{
 
 .slider img{
 	width: 100%;
+	height: 94vh;
 }
 
 .slider .titular{
@@ -92,4 +93,27 @@ body{
 	bottom: 15px;
 	right: 15px;
 	cursor: pointer;
+}
+
+
+@media screen and (max-width: 800px){
+	
+	.slider .titular p{
+		display: none;
+	}
+
+	.slider .titular h1{
+		font-size: 60px;
+	}
+
+	.slider li img{
+		height: 50vh;
+	}
+
+	.texto{
+		width: 90%;
+		margin : 50px 15px;
+		font-size: 25px;
+	}
+	
 }
